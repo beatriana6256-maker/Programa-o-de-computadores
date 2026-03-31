@@ -1,0 +1,45 @@
+#a) Elabore um algoritmo que receba dois números, calcule a multiplicação entre eles e apresente o resltado.
+a = 5
+b = 4
+c = a * b
+if a * b == c:
+    print(c)
+
+#Desenvolva um algoritmo que receba cinco números, calcule a média aritmética e apresente o resultado.
+a = 5
+b = 4
+c = 7
+d = 9
+e = 3
+media = (a + b +c + d + e) / 5
+print(media)
+
+#Construa um algoritmo que receba o valor de um produto e calcule o preço final considerando um acréscimo de 8% de imposto.
+valor_produto = 50
+acréscimo = valor_produto * 0.08
+preço_final = valor_produto + acréscimo
+print(preço_final)
+
+#Elabore um algoritmo que receba dois números e apresente o resultado da subtração entre eles.
+a = 10
+b = 6
+if a - b == 4:
+    print(a-b)
+
+#Construa um algoritmo que receba a altura e o peso de uma pessoa e calcule o Índice de Massa Corporal (IMC).
+altura = 1.85
+peso = 110
+imc = peso / (altura ** 2)
+print(imc)
+
+#Elabore um algoritmo que receba a temperatura em graus Celsius e apresente o valor convertido para graus em Fahrenheit.
+celsius = 45
+fahrenheit = (celsius * 9/5) + 32
+print(fahrenheit)
+
+#Construa um algoritmo que receba a quantidade de horas trabalhadas por um funcionário e o valor da hora, trabalhada, calculando o salário total.
+horas_trabalhadas = 190
+valor_hora = 20
+salário_total = horas_trabalhadas * valor_hora
+print(salário_total)
+
