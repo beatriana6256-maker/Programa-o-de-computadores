@@ -1,0 +1,6 @@
+#6. Leia dois números e exiba qual é o maior.
+x = int(input(''))
+y = int(input(''))
+if x > y:
+    print(' O maior número é: ', x)
+else: print(' O maior número é: ', y)
