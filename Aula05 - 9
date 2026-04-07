@@ -1,0 +1,4 @@
+#9. Leia um valor e: Converta para float; Mostre a metade.
+x = input('')
+x = float(x)
+print(x / 2)
