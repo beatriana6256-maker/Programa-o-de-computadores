@@ -1,0 +1,4 @@
+#3. Leia um valor e: Mostre o valor digitado; Mostre o tipo da variável usando type()
+x = input('')
+print(x)
+print(type(x))
