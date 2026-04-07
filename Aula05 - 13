@@ -1,0 +1,5 @@
+#13. Leia um número e: Se for maior que 100 → mostre metade; Senão → mostre o dobro.
+x = int(input(''))
+if x > 100:
+    print('Metade: ', x / 2)
+else: print('Dobro: ', x * 2)
