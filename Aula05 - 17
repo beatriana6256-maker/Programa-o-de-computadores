@@ -1,0 +1,7 @@
+#17. Leia idade e: Mostre: Menor de idade (<18); Adulto (18 a 59); Idoso (60+).
+x = int(input(''))
+if x < 18:
+    print('Menor de idade')
+elif (x >= 18) and (x <= 59):
+    print('Adulto')
+else: print('Idoso')
