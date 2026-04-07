@@ -1,0 +1,9 @@
+#12. Leia dois números e: Mostre a soma; Mostre qual é maior ou se são iguais.
+x = int(input(''))
+y = int(input(''))
+print( 'Soma:', x + y)
+if x > y:
+    print('maior', x)
+elif y > x:
+    print('maior', y)
+else: print('São iguais')
