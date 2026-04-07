@@ -1,0 +1,13 @@
+#18. Leia um número e: Mostre se ele é par positivo, par negativo, impar positivo, impar negativo ou neutro.
+x - int(input(''))
+if (x % 2) == 0:
+    if x > 0:
+        print('Par Positivo')
+    elif x < 0:
+        print('Par Negativo')
+    else: print('Neutro')
+if x > 0:
+  print('Ímpar Positivo')
+elif x < 0:
+        print('Ímpar Negativo')
+else: print('Neutro')
